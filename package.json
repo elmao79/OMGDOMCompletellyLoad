@@ -1,0 +1,36 @@
+{
+  "name": "omgdomcompletellyload",
+  "version": "1.0.1",
+  "description": "DOM library to control if page is completelly loaded.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmao79/OMGDOMCompletellyLoad.git"
+  },
+  "keywords": [
+    "javascript-library",
+    "dom"
+  ],
+  "author": "OSCAR MARTIN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elmao79/OMGDOMCompletellyLoad/issues"
+  },
+  "homepage": "https://github.com/elmao79/OMGDOMCompletellyLoad#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^5.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
